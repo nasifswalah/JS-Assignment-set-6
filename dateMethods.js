@@ -1,74 +1,71 @@
 //new date()
-// let date = new Date();
-// console.log(date);
+let date = new Date();
+console.log(date);
 
 //Date.parse()
-// let dates = "January 30, 2024 9:11 PM";
-// let msec = Date.parse(dates);
-// console.log(msec);
+let dates = "January 30, 2024 9:11 PM";
+let msec = Date.parse(dates);
+console.log(msec);
 
 //Date.UTC()
-// let dateutc = Date.UTC(2024, 1, 30);
-// console.log(dateutc);
+let dateutc = Date.UTC(2024, 1, 30);
+console.log(dateutc);
 
 //getDate()
-// let dayDate = new Date('January 30, 2024 9:28 PM');
-// console.log(dayDate.getDate());
+let dayDate = new Date('January 30, 2024 9:28:30:77');
+console.log(dayDate.getDate());
 
 //getMonth()
-// console.log(dayDate.getMonth());
+console.log(dayDate.getMonth());
 
 //getFullyear()
-// console.log(dayDate.getFullYear());
+console.log(dayDate.getFullYear());
 
 //getDay()
-// console.log(dayDate.getDay());
+console.log(dayDate.getDay());
 
 //getHours()
-// console.log(dayDate.getHours());
+console.log(dayDate.getHours());
 
 //getMinutes()
-// console.log(dayDate.getMinutes());
+console.log(dayDate.getMinutes());
 
 //getSeconds()
-// let dayDate = new Date('January 30, 2024 9:28:30:18');
-// console.log(dayDate.getSeconds());
+console.log(dayDate.getSeconds());
 
 //getMilliseconds()
-// console.log(dayDate.getMilliseconds());
+console.log(dayDate.getMilliseconds());
 
 //setDate()
-// dayDate.setDate(15)
-// console.log(dayDate.getDate());
+dayDate.setDate(15)
+console.log(dayDate.getDate());
 
 //setMonth()
-// dayDate.setMonth(10)
-// console.log(dayDate.getMonth());
+dayDate.setMonth(10)
+console.log(dayDate.getMonth());
 
 //setFullyear()
-// dayDate.setFullYear(2023)
-// console.log(dayDate.getFullYear());
+dayDate.setFullYear(2023)
+console.log(dayDate.getFullYear());
 
 //setHours()
-// let dayDate = new Date('January 30, 2024 9:28:30:77');
-// dayDate.setHours(5)
-// console.log(dayDate.getHours());
+dayDate.setHours(5)
+console.log(dayDate.getHours());
 
 //setMinutes()
-// dayDate.setMinutes(58)
-// console.log(dayDate.getMinutes());
+dayDate.setMinutes(58)
+console.log(dayDate.getMinutes());
 
 //setSeconds()
-// dayDate.setSeconds(59)
-// console.log(dayDate.getSeconds());
+dayDate.setSeconds(59)
+console.log(dayDate.getSeconds());
 
 //setMillisconds()
-// dayDate.setMilliseconds(45)
-// console.log(dayDate.getMilliseconds());
+dayDate.setMilliseconds(45)
+console.log(dayDate.getMilliseconds());
 
 //toString()
-let dayDate = new Date('January 30, 2024 9:28:30:77');
-// console.log(dayDate.toString());
+console.log(dayDate.toString());
 
 //toLocaleDateString()
 let options = {
